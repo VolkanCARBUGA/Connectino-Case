@@ -314,7 +314,7 @@ uvicorn main:app --reload --log-level debug
 #### 📱 İzlenebilir Demo Video
 **🎥 Connectino Case Demo Video - Tam Özellik Tanıtımı**
 
-![Demo Video](demo_video.mp4)
+> **📹 Demo Video**: [demo_video.mp4](./demo_video.mp4) dosyasını indirerek izleyebilirsiniz.
 
 **Video İçeriği:**
 - 📱 Mobil uygulama kullanımı
@@ -325,5 +325,5 @@ uvicorn main:app --reload --log-level debug
 - 📌 Pin/unpin işlemleri
 - 🌐 Web uygulaması gösterimi
 
-> **Not**: Video yukarıda otomatik olarak oynatılabilir şekilde görüntülenecektir. İndirme yapmanıza gerek yoktur.
+> **Not**: Video dosyası proje klasöründe bulunmaktadır. GitHub'da video dosyaları doğrudan oynatılamadığı için indirerek izlemeniz gerekmektedir.
 
