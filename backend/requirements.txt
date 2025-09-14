@@ -1,0 +1,13 @@
+# FastAPI ve Web Framework
+fastapi==0.116.1
+uvicorn[standard]==0.32.1
+
+# Veritabanı
+sqlalchemy==2.0.43
+
+# Environment Variables
+python-dotenv==1.1.1
+
+# Data Validation
+pydantic==2.11.9
+
