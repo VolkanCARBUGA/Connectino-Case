@@ -104,7 +104,7 @@ class NoteModel {
 
 ### 1. Projeyi Klonlayın
 ```bash
-git clone <repository-url>
+git clone https://github.com/VolkanCARBUGA/Connectino-Case.git
 cd my_notes
 ```
 
