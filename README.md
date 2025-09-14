@@ -239,19 +239,6 @@ CREATE TABLE notes (
 
 ## 🔧 Geliştirme Rehberi
 
-### Flutter Geliştirme
-```bash
-# Kod analizi
-flutter analyze
-
-# Test çalıştırma
-flutter test
-
-# Build (Release)
-flutter build apk --release
-flutter build ios --release
-flutter build web --release
-```
 
 ### Backend Geliştirme
 ```bash
@@ -300,10 +287,7 @@ uvicorn main:app --reload --log-level debug
 - **Local Encryption**: Isar ile şifrelenmiş local storage
 - **Token Management**: Firebase Auth token yönetimi
 
-### Backend API
-- **Input Validation**: Pydantic ile güçlü validasyon
-- **SQL Injection Protection**: SQLAlchemy ORM
-- **CORS Configuration**: Güvenli cross-origin istekler
+
 
 
 ## 📊 Performans
@@ -343,26 +327,3 @@ uvicorn main:app --reload --log-level debug
 
 > **Not**: Video yukarıda otomatik olarak oynatılabilir şekilde görüntülenecektir. İndirme yapmanıza gerek yoktur.
 
-### 📋 Özellik Bazlı Demo Videoları
-- 🔐 **Authentication & Login**: [YouTube Video - Auth Demo](https://youtube.com/watch?v=demo-auth)
-- 📝 **Not Oluşturma & Düzenleme**: [YouTube Video - CRUD Demo](https://youtube.com/watch?v=demo-crud)
-- 🔄 **Offline Senkronizasyon**: [YouTube Video - Sync Demo](https://youtube.com/watch?v=demo-sync)
-- 🔍 **Arama & Filtreleme**: [YouTube Video - Search Demo](https://youtube.com/watch?v=demo-search)
-- 📌 **Pin/Unpin Özelliği**: [YouTube Video - Pin Demo](https://youtube.com/watch?v=demo-pin)
-
-### 🏗️ Teknik Demo Videoları
-- ⚙️ **Kurulum Rehberi**: [YouTube Video - Setup Guide](https://youtube.com/watch?v=demo-setup)
-- 🔧 **Backend API Kullanımı**: [YouTube Video - API Usage](https://youtube.com/watch?v=demo-api-usage)
-- 🚀 **Deployment Süreci**: [YouTube Video - Deployment](https://youtube.com/watch?v=demo-deployment)
-- 🐛 **Hata Ayıklama**: [YouTube Video - Debugging](https://youtube.com/watch?v=demo-debugging)
-
-### 📊 Performans & Test Videoları
-- ⚡ **Performans Testleri**: [YouTube Video - Performance](https://youtube.com/watch?v=demo-performance)
-- 🧪 **Unit & Integration Tests**: [YouTube Video - Testing](https://youtube.com/watch?v=demo-testing)
-- 📱 **Platform Karşılaştırması**: [YouTube Video - Platform Comparison](https://youtube.com/watch?v=demo-platforms)
-
----
-
-**Son Güncelleme**: 2024-01-15  
-**Versiyon**: 1.0.0  
-**Durum**: Aktif Geliştirme
