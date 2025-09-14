@@ -6,6 +6,21 @@ Modern, çok platformlu bir not alma uygulaması. Firebase, Backend API ve Local
 
 Connectino Case, kullanıcıların notlarını oluşturmasına, düzenlemesine ve senkronize etmesine olanak tanıyan kapsamlı bir not uygulamasıdır. Uygulama, **Flutter** ile geliştirilmiş mobil frontend ve **FastAPI** ile geliştirilmiş backend API'den oluşmaktadır.
 
+## 🎬 Demo Video
+
+> **📹 Demo Video**: [demo_video.mp4](./demo_video.mp4) dosyasını indirerek izleyebilirsiniz.
+
+**Video İçeriği:**
+- 📱 Mobil uygulama kullanımı
+- 🔐 Kullanıcı girişi ve kayıt olma
+- 📝 Not oluşturma, düzenleme ve silme
+- 🔄 Offline senkronizasyon
+- 🔍 Arama ve filtreleme özellikleri
+- 📌 Pin/unpin işlemleri
+- 🌐 Web uygulaması gösterimi
+
+> **Not**: Video dosyası proje klasöründe bulunmaktadır. GitHub'da video dosyaları doğrudan oynatılamadığı için indirerek izlemeniz gerekmektedir.
+
 ### ✨ Temel Özellikler
 
 - **📱 Çok Platformlu**: iOS, Android ve Web desteği
@@ -306,24 +321,4 @@ uvicorn main:app --reload --log-level debug
 
 
 
-## 📹 Demo Videoları
-
-### 🎬 Ana Demo Videosu
-**Connectino Case - Tam Özellik Tanıtımı**
-
-#### 📱 İzlenebilir Demo Video
-**🎥 Connectino Case Demo Video - Tam Özellik Tanıtımı**
-
-> **📹 Demo Video**: [demo_video.mp4](./demo_video.mp4) dosyasını indirerek izleyebilirsiniz.
-
-**Video İçeriği:**
-- 📱 Mobil uygulama kullanımı
-- 🔐 Kullanıcı girişi ve kayıt olma
-- 📝 Not oluşturma, düzenleme ve silme
-- 🔄 Offline senkronizasyon
-- 🔍 Arama ve filtreleme özellikleri
-- 📌 Pin/unpin işlemleri
-- 🌐 Web uygulaması gösterimi
-
-> **Not**: Video dosyası proje klasöründe bulunmaktadır. GitHub'da video dosyaları doğrudan oynatılamadığı için indirerek izlemeniz gerekmektedir.
 
