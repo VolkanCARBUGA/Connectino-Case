@@ -437,9 +437,9 @@ Sorunlarınız için:
 **Connectino Case - Tam Özellik Tanıtımı**
 
 #### 📱 İzlenebilir Demo Video
-**🎥 [Connectino Case Demo Video - Tam Özellik Tanıtımı](./demo_video.mp4)**
+**🎥 Connectino Case Demo Video - Tam Özellik Tanıtımı**
 
-> **Not**: Demo videoyu izlemek için yukarıdaki linke tıklayın. Video dosyası proje klasöründe bulunmaktadır.
+![Demo Video](demo_video.mp4)
 
 **Video İçeriği:**
 - 📱 Mobil uygulama kullanımı
@@ -449,6 +449,8 @@ Sorunlarınız için:
 - 🔍 Arama ve filtreleme özellikleri
 - 📌 Pin/unpin işlemleri
 - 🌐 Web uygulaması gösterimi
+
+> **Not**: Video yukarıda otomatik olarak oynatılabilir şekilde görüntülenecektir. İndirme yapmanıza gerek yoktur.
 
 ### 📋 Özellik Bazlı Demo Videoları
 - 🔐 **Authentication & Login**: [YouTube Video - Auth Demo](https://youtube.com/watch?v=demo-auth)
