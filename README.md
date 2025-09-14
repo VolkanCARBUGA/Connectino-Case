@@ -86,7 +86,7 @@ graph TD
 
 ### 1. Projeyi Klonlayın
 ```bash
-git clone <repository-url>
+git clone https://github.com/VolkanCARBUGA/Connectino-Case.git
 cd "Connectino Case"
 ```
 
@@ -291,10 +291,7 @@ uvicorn main:app --reload --log-level debug
 |----------|-------|--------|
 | **Android** | ✅ Tam Destek | API 21+ |
 | **iOS** | ✅ Tam Destek | iOS 11+ |
-| **Web** | ✅ Tam Destek | Modern tarayıcılar |
-| **macOS** | ✅ Destekleniyor | Desktop uygulaması |
-| **Windows** | ✅ Destekleniyor | Desktop uygulaması |
-| **Linux** | ✅ Destekleniyor | Desktop uygulaması |
+
 
 ## 🔒 Güvenlik
 
@@ -308,25 +305,6 @@ uvicorn main:app --reload --log-level debug
 - **SQL Injection Protection**: SQLAlchemy ORM
 - **CORS Configuration**: Güvenli cross-origin istekler
 
-## 🚀 Production Deployment
-
-### Backend (Heroku)
-```bash
-# Procfile
-web: uvicorn main:app --host 0.0.0.0 --port $PORT
-
-# Environment Variables
-DATABASE_URL=postgresql://user:pass@host:port/db
-```
-
-### Flutter (Play Store / App Store)
-```bash
-# Android
-flutter build appbundle --release
-
-# iOS
-flutter build ios --release
-```
 
 ## 📊 Performans
 
@@ -342,94 +320,7 @@ flutter build ios --release
 - **Database Indexing**: Optimized queries
 - **Async Operations**: FastAPI async/await
 
-## 🧪 Test Stratejisi
 
-### Unit Tests
-```bash
-# Flutter
-flutter test
-
-# Backend
-python -m pytest
-```
-
-### Integration Tests
-- **API Tests**: Backend endpoint testleri
-- **Firebase Tests**: Cloud service testleri
-- **UI Tests**: Widget testleri
-
-## 📈 Gelecek Özellikler
-
-- [ ] **Not Kategorileri**: Notları kategorilere ayırma
-- [ ] **Not Paylaşımı**: Notları diğer kullanıcılarla paylaşma
-- [ ] **Rich Text Editor**: Formatlanmış metin desteği
-- [ ] **Not Şablonları**: Hazır not şablonları
-- [ ] **Export/Import**: Notları dışa/içe aktarma
-- [ ] **Dark Mode**: Karanlık tema desteği
-- [ ] **Push Notifications**: Hatırlatma bildirimleri
-- [ ] **Voice Notes**: Sesli not desteği
-- [ ] **Image Attachments**: Görsel ekleme
-- [ ] **Collaborative Editing**: Ortak düzenleme
-
-## 🤝 Katkıda Bulunma
-
-1. **Fork** yapın
-2. **Feature branch** oluşturun (`git checkout -b feature/amazing-feature`)
-3. **Commit** yapın (`git commit -m 'Add amazing feature'`)
-4. **Push** yapın (`git push origin feature/amazing-feature`)
-5. **Pull Request** oluşturun
-
-### Kod Standartları
-- **Flutter**: Dart lint kurallarına uygun
-- **Backend**: PEP 8 Python style guide
-- **Git**: Conventional commits
-- **Documentation**: Inline code comments
-
-## 📄 Lisans
-
-Bu proje **MIT Lisansı** altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
-
-## 👨‍💻 Geliştirici
-
-**Volkan Çarbuğa**
-- 📧 Email: volkan@example.com
-- 💼 LinkedIn: [LinkedIn Profili]
-- 🐙 GitHub: [GitHub Profili]
-
-## 📞 Destek
-
-Sorunlarınız için:
-- 🐛 **Bug Report**: [Issues sayfası]
-- 💬 **Sorular**: [Discussions sayfası]
-- 📧 **Email**: volkan@example.com
-- 📱 **Telegram**: @volkancarbuga
-
-## 🙏 Teşekkürler
-
-- **Flutter Team** - Harika cross-platform framework
-- **Firebase Team** - Güçlü backend servisleri
-- **FastAPI Team** - Hızlı ve modern API framework
-- **SQLAlchemy Team** - Güçlü ORM kütüphanesi
-
----
-
-⭐ **Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!**
-
-## 📚 Ek Kaynaklar
-
-- [Flutter Documentation](https://docs.flutter.dev/)
-- [Firebase Documentation](https://firebase.google.com/docs)
-- [FastAPI Documentation](https://fastapi.tiangolo.com/)
-- [SQLAlchemy Documentation](https://docs.sqlalchemy.org/)
-- [Material Design](https://material.io/design)
-
-## 🔗 Bağlantılar
-
-- **Live Demo**: [Web App Demo]
-- **Mobile App**: [Play Store] | [App Store]
-- **API Documentation**: [Swagger UI]
-- **Project Board**: [GitHub Projects]
-- **CI/CD Pipeline**: [GitHub Actions]
 
 ## 📹 Demo Videoları
 

@@ -21,7 +21,7 @@ Bu proje, not uygulaması için geliştirilmiş RESTful API backend'idir. FastAP
 
 ### 1. Projeyi Klonlayın
 ```bash
-git clone <repository-url>
+git clone https://github.com/VolkanCARBUGA/Connectino-Case.git
 cd backend
 ```
 
@@ -283,40 +283,6 @@ final response = await http.post(
 | 422 | Validation hatası |
 | 500 | Sunucu hatası |
 
-## 🔒 Güvenlik Notları
-
-⚠️ **Production için önemli:**
-- Authentication/Authorization ekleyin
-- HTTPS kullanın
-- CORS ayarlarını production domain'lerine göre yapın
-- Rate limiting uygulayın
-- Input validation'ı güçlendirin
-
-## 🚀 Production Deployment
-
-### Heroku için
-1. `Procfile` oluşturun:
-```
-web: uvicorn main:app --host 0.0.0.0 --port $PORT
-```
-
-2. `requirements.txt`'i güncelleyin:
-```
-fastapi
-uvicorn[standard]
-sqlalchemy
-python-dotenv
-```
-
-### Docker için
-```dockerfile
-FROM python:3.9
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-COPY . .
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
-```
 
 ## 📝 Changelog
 
@@ -326,32 +292,4 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 - ✅ Pydantic model validasyonu
 - ✅ Otomatik API dokümantasyonu
 
-## 🤝 Katkıda Bulunma
 
-1. Fork yapın
-2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Commit yapın (`git commit -m 'Add amazing feature'`)
-4. Push yapın (`git push origin feature/amazing-feature`)
-5. Pull Request oluşturun
-
-## 📄 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır.
-
-## 👨‍💻 Geliştirici
-
-**Volkan Çarbuğa**
-- 📧 Email: [email@example.com]
-- 💼 LinkedIn: [LinkedIn Profili]
-- 🐙 GitHub: [GitHub Profili]
-
-## 📞 Destek
-
-Sorunlarınız için:
-- 🐛 Bug report: [Issues sayfası]
-- 💬 Sorular: [Discussions sayfası]
-- 📧 Email: [email@example.com]
-
----
-
-⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!
