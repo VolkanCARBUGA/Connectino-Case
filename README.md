@@ -86,7 +86,7 @@ graph TD
 
 ### 1. Projeyi Klonlayın
 ```bash
-[git clone <repository-url>](https://github.com/VolkanCARBUGA/Connectino-Case.git)
+git clone https://github.com/VolkanCARBUGA/Connectino-Case.git
 cd "Connectino Case"
 ```
 
